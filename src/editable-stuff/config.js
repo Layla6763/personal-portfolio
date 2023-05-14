@@ -120,9 +120,9 @@ const experiences = {
   ]
 }
 
-// Blog SECTION
-// const blog = {
-//   show: false,
-// };
+//Blog SECTION
+const blog = {
+  show: true,
+};
 
-export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };
+export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences, blog };

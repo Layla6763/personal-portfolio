@@ -32,9 +32,17 @@ const BlogCard = ({ index, title, image, description }) => {
             <div className="">
               <h1 className="">{title}</h1>
               <p className="lead">{description}</p>
-              <Link to={`${process.env.PUBLIC_URL}blog/${index}`}>
-                Read more...{" "}
-              </Link>
+              <div>
+                {index == 0 ? (
+                  <a href={require('../../editable-stuff/blog1.pdf')}>
+                    Read more...
+                  </a>) : (
+                  <a href={require('../../editable-stuff/blog2.pdf')}>
+                  Read more...
+                  </a>  
+                  )
+                }
+              </div>
             </div>
           </div>
         </div>
