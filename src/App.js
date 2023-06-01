@@ -21,6 +21,7 @@ import { Blog } from "./components/blog/Blog";
 import BlogPost from "./components/blog/BlogPost";
 import GetInTouch from "./components/home/GetInTouch.jsx";
 import Leadership from "./components/home/Leadership.jsx";
+import TechSkills from "./components/home/TechSkills.jsx"
 
 import Experience from "./components/home/Experience";
 
@@ -64,6 +65,7 @@ const Home = React.forwardRef((props, ref) => {
           imageSize={leadership.imageSize}
         />
       )}
+      <TechSkills />
       {skills.show && (
         <Skills
           heading={skills.heading}

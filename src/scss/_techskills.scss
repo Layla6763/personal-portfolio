@@ -1,0 +1,26 @@
+@import '~@fortawesome/fontawesome-svg-core/styles.css';
+
+.techskills-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    position: relative;
+
+  .skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 40px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+
+    &:hover {
+      transform: translateY(-10px) scale(1.2);
+    }
+
+    .skill-name {
+      margin-top: 10px;
+    }
+  }
+}
