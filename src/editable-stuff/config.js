@@ -11,10 +11,6 @@ const mainBody = {
   message: "A UI Developer at the Liquid Instruments",
   icons: [
     {
-      image: "fa-github",
-      url: "https://github.com/hashirshoaeb",
-    },
-    {
       image: "fa-linkedin",
       url: "www.linkedin.com/in/jiayi-bian-a87701189",
     },
@@ -29,19 +25,6 @@ const about = {
   message:
     "My name is Jiayi Bian. I graduated from the Australian National University with a Master of Computing in 2020, since then, I started to work as a UI developer at Liquid Instruments, a company developing all-in-one test and measurement devices and applications. My primary role is designing the desktop application user interface and developing it in C++ and Qt. I'm familiar with Agile and Git, which I use on a daily basis. I’m a team player who can easily learn new concepts and is always looking for a new challenge.",
   resume: require("../editable-stuff/Jiayi_Bian_resume.pdf"),
-};
-
-// PROJECTS SECTION
-// Setting up project lenght will automatically fetch your that number of recently updated projects, or you can set this field 0 to show none.
-//      i.e: reposLength: 0,
-// If you want to display specfic projects, add the repository names,
-//      i.e ["repository-1", "repo-2"]
-const repos = {
-  show: false,
-  heading: "Recent Projects",
-  gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
-  reposLength: 4,
-  specificRepos: [],
 };
 
 // Leadership SECTION
@@ -99,7 +82,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for Software Engineering opportunities! If you know of any positions available, please feel free to email me at",
+    "I'm currently looking for Software Engineering opportunities! If you know of any positions available, please feel free to contact me at",
   email: "jiayi.bian93@gmail.com",
 };
 
@@ -125,4 +108,4 @@ const blog = {
   show: true,
 };
 
-export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences, blog };
+export { navBar, mainBody, about, skills, leadership, getInTouch, experiences, blog };
