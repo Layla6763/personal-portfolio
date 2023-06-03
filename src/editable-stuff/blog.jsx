@@ -5,7 +5,7 @@ const blog = new BlogBuilder({
   title: "Qt Quick",
   image: "img",
   description:
-    "This is a summary I wrote when I did research for the team about if we should use Qt Quick in the code.",
+    "This is a summary I wrote when I did research in my work about if we should use Qt Quick in the code.",
 })
   .addHeading("Heading")
   .addParagraph(
