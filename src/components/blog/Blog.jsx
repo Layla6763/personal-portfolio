@@ -35,7 +35,7 @@ const BlogCard = ({ index, title, image, description }) => {
               <div>
                 <a href={require('../../editable-stuff/blog1.pdf')}>
                   Read more...
-                </a>) 
+                </a> 
               </div>
             </div>
           </div>
