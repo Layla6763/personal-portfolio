@@ -33,15 +33,9 @@ const BlogCard = ({ index, title, image, description }) => {
               <h1 className="">{title}</h1>
               <p className="lead">{description}</p>
               <div>
-                {index == 0 ? (
-                  <a href={require('../../editable-stuff/blog1.pdf')}>
-                    Read more...
-                  </a>) : (
-                  <a href={require('../../editable-stuff/blog2.pdf')}>
+                <a href={require('../../editable-stuff/blog1.pdf')}>
                   Read more...
-                  </a>  
-                  )
-                }
+                </a>) 
               </div>
             </div>
           </div>

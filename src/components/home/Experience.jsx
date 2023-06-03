@@ -1,30 +1,55 @@
-import React from 'react';
-
 const Experience = () => {
   const experiences = [
     {
       id: 1,
-      startDate: 'Jan 2019',
+      startDate: 'Sep 2020',
       endDate: ' - Present',
-      company: 'ABC Company',
-      jobTitle: 'Software Engineer',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae commodo ligula.',
+      company: 'Liquid Instruments Pty Ltd.',
+      jobTitle: 'UI Developer',
+      description: [
+        'Designing and coding new features to create an intuitive user interface for the application.',
+        'Developing the desktop application using C++ and Qt framework.',
+        'Reviewing new code written by peers to find potential problems and improvements.',
+        'Writing unit tests to confirm that the code achieves the desired behaviour.',
+        'Following agile methodology for design, development, testing and release of the products and features.',
+        'Working with a team and utilizing collaborative tools such as Jira.',
+        'Writing and maintaining documentation to clearly explain the purpose of the code.',
+        'Using image editor software such as GIMP to make icons.'
+      ]
     },
     {
       id: 2,
-      startDate: 'Jun 2017',
-      endDate: ' - Dec 2018',
-      company: 'XYZ Corporation',
-      jobTitle: 'Frontend Developer',
-      description: 'Praesent sagittis, enim eu cursus fringilla, elit urna iaculis lectus, vitae malesuada turpis sem et elit.',
+      startDate: 'Feb 2019',
+      endDate: ' - Dec 2020',
+      company: 'the Australian National University',
+      jobTitle: 'Master of Computing ',
+      description: [
+        
+      ]
     },
     {
       id: 3,
-      startDate: 'Sep 2015',
-      endDate: ' - May 2017',
-      company: '123 Inc.',
-      jobTitle: 'Web Developer',
-      description: 'Vestibulum luctus, ipsum sed aliquam efficitur, justo elit aliquet mi, auctor interdum justo dolor at nisi.',
+      startDate: 'May 2016',
+      endDate: ' - Jan 2019',
+      company: 'Carl Zeiss (Shanghai) Co., Ltd.',
+      jobTitle: 'Accountant',
+      description: [
+        'Posting incoming/cash transactions in SAP.',
+        'Writing monthly cash flow forecasts and dunning reports.',
+        'Monitoring the balance of bank accounts and providing purchasing advice for financial products.',
+        'Preparing supporting files to guarantee foreign exchange payments are paid on time.',
+        'Performing administrative tasks such as updating company information with banks.'
+      ]
+    },
+    {
+      id: 4,
+      startDate: 'Sep 2012',
+      endDate: ' - Jul 2016',
+      company: 'East China University of Political Science and Law',
+      jobTitle: 'Bachelor of Finance',
+      description: [
+        
+      ]
     },
   ];
 
@@ -46,13 +71,17 @@ const Experience = () => {
               <div className="experience-info">
                 <h3>{experience.company}</h3>
                 <p className="job-title">{experience.jobTitle}</p>
-                <p>{experience.description}</p>
+                <ul className="bullet-points">
+                  {experience.description.map((bullet) => (
+                    <li key={bullet}>{bullet}</li>
+                  ))}
+                </ul>
               </div>
             </div>
           </div>
         ))}
       </div>
-      </div>
+    </div>
   );
 };
 
