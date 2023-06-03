@@ -1,0 +1,59 @@
+/* Experience.scss */
+
+.experience {
+    margin-top: 40px;
+  
+    .experience-item {
+      display: flex;
+      margin-bottom: 40px;
+  
+      .timeline {
+        position: relative;
+        width: 50px;
+        margin-right: 20px;
+  
+        .circle {
+          position: absolute;
+          top: 0;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          width: 16px;
+          height: 16px;
+          border-radius: 50%;
+          background-color: #007bff;
+        }
+  
+        .line {
+          position: absolute;
+          top: 8px;
+          left: 50%;
+          transform: translateX(-50%);
+          width: 2px;
+          height: 100%;
+          background-color: #007bff;
+        }
+      }
+  
+      .experience-details {
+        flex: 1;
+  
+        .experience-period {
+          margin-bottom: 10px;
+  
+          .start-date,
+          .end-date {
+            font-weight: bold;
+          }
+        }
+  
+        .experience-info {
+          margin-left: 70px;
+  
+          .job-title {
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+  

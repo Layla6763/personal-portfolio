@@ -2,17 +2,17 @@
 
 .techskills-section {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    height: 200px;
-    position: relative;
-
+ 
   .skill {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 40px;
-    cursor: pointer;
+    margin: 40px 10px;
+    text-align: center;
+    width: 120px;
     transition: transform 0.3s ease-in-out;
 
     &:hover {
@@ -24,3 +24,9 @@
     }
   }
 }
+
+@media screen and (max-width: 600px) {
+    .skill {
+      width: 100px;
+    }
+  }
