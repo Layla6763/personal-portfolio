@@ -4,6 +4,8 @@ import "./scss/custom.scss";
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// This project is based on an open source project https://github.com/hashirshoaeb/home
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

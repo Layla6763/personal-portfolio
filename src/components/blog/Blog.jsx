@@ -1,7 +1,6 @@
 import React from "react";
 import { BlogBuilder } from "./BlogBuilder";
 import bloglist from "../../editable-stuff/blog";
-import { Link } from "react-router-dom";
 const Blog = (props) => {
   return (
     <div className="container-lg mt-5 bg-blue">

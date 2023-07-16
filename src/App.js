@@ -4,10 +4,7 @@ import {
   navBar,
   mainBody,
   about,
-  leadership,
-  skills,
   getInTouch,
-  experiences,
   blog
 } from "./editable-stuff/config.js";
 import MainBody from "./components/home/MainBody";
@@ -15,7 +12,6 @@ import AboutMe from "./components/home/AboutMe";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import { Blog } from "./components/blog/Blog";
-import BlogPost from "./components/blog/BlogPost";
 import GetInTouch from "./components/home/GetInTouch.jsx";
 import TechSkills from "./components/home/TechSkills.jsx"
 
