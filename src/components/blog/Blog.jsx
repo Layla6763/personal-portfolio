@@ -29,7 +29,7 @@ const BlogCard = ({ index, title, image, description }) => {
           </div>
           <div className="col-8 col-lg-12">
             <div className="">
-              <h1 className="">{title}</h1>
+              <h2 className="">{title}</h2>
               <p className="lead">{description}</p>
               {index === 0 &&
               <div>
