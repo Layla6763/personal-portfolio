@@ -8,7 +8,7 @@ const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
   firstName: "Jiayi",
   lastName: "Bian",
-  message: "A UI Developer at the Liquid Instruments",
+  message: "A UI Developer at Liquid Instruments",
   icons: [
     {
       image: "fa-linkedin",
@@ -23,7 +23,7 @@ const about = {
   imageLink: require("../editable-stuff/JiayiBian.jpeg"),
   imageSize: 375,
   message:
-    "My name is Jiayi Bian. I graduated from the Australian National University with a Master of Computing in 2020, since then, I started to work as a UI developer at Liquid Instruments, a company developing all-in-one test and measurement devices and applications. My primary role is designing the desktop application user interface and developing it in C++ and Qt. I'm familiar with Agile and Git, which I use on a daily basis. I’m a team player who can easily learn new concepts and is always looking for a new challenge.",
+    "My name is Jiayi Bian. I graduated from the Australian National University with a Master of Computing in 2020. Since then, I have worked as a UI developer at Liquid Instruments, a company developing all-in-one test and measurement devices and applications for researchers in engineering. My primary role is designing the user interface for the desktop application and developing it in C++ and Qt. I'm familiar with Agile and Git, which I use daily. I’m a team player who can easily learn new concepts and is always looking for a new challenge.",
   resume: require("../editable-stuff/Jiayi_Bian_resume.pdf"),
 };
 

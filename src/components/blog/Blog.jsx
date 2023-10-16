@@ -4,7 +4,7 @@ import bloglist from "../../editable-stuff/blog";
 const Blog = (props) => {
   return (
     <div className="container-lg mt-5 bg-blue">
-      <h1 className="text-center">Blogs</h1>
+      <h1 className="text-center">Blogs and Projects</h1>
       {bloglist.map((value, index) => {
         return (
           <BlogCard
@@ -31,11 +31,20 @@ const BlogCard = ({ index, title, image, description }) => {
             <div className="">
               <h1 className="">{title}</h1>
               <p className="lead">{description}</p>
+              {index === 0 &&
               <div>
                 <a href={require('../../editable-stuff/blog1.pdf')}>
                   Read more...
                 </a> 
               </div>
+              }
+              {index === 1 &&
+              <div>
+                <a href="https://github.com/Layla6763/game-list">
+                  Read more...
+                </a> 
+              </div>
+              }
             </div>
           </div>
         </div>

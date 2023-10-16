@@ -7,21 +7,22 @@ const Experience = () => {
       company: 'Liquid Instruments Pty Ltd.',
       jobTitle: 'UI Developer',
       description: [
-        'Designing and coding new features to create an intuitive user interface for the application.',
-        'Developing the desktop application using C++ and Qt framework.',
+        'Designing new features and developing prototypes to create an intuitive user interface for the application.',
+        'Developing the desktop application using C++, Qt framework, HTML and CSS.',
         'Reviewing new code written by peers to find potential problems and improvements.',
-        'Writing unit tests to confirm that the code achieves the desired behaviour.',
-        'Following agile methodology for design, development, testing and release of the products and features.',
-        'Working with a team and utilizing collaborative tools such as Jira.',
-        'Writing and maintaining documentation to clearly explain the purpose of the code.',
-        'Using image editor software such as GIMP to make icons.'
+        'Writing unit tests to confirm that new code achieves the desired behaviour.',
+        'Following agile methodology for design, development, testing and release of products and features.',
+        'Working with my team and utilizing collaborative tools such as Jira and Git to manage multiple tasks.',
+        'Writing and maintaining documentation to clearly explain the purpose of new code.',
+        'Preparing and delivering tutorials for my team about programming topics I study outside of work.',
+        'Using image editor software such as GIMP and Adobe Illustrator to create new icons.'
       ]
     },
     {
       id: 2,
       startDate: 'Feb 2019',
       endDate: ' - Dec 2020',
-      company: 'the Australian National University',
+      company: 'The Australian National University',
       jobTitle: 'Master of Computing ',
       description: [
         
@@ -37,6 +38,7 @@ const Experience = () => {
         'Posting incoming/cash transactions in SAP.',
         'Writing monthly cash flow forecasts and dunning reports.',
         'Monitoring the balance of bank accounts and providing purchasing advice for financial products.',
+        'Communicating with customers to ensure the accounts receivable payments were paid on time.',
         'Preparing supporting files to guarantee foreign exchange payments are paid on time.',
         'Performing administrative tasks such as updating company information with banks.'
       ]
