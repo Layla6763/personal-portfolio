@@ -5,7 +5,7 @@ const Experience = () => {
       startDate: 'Sep 2020',
       endDate: ' - Present',
       company: 'Liquid Instruments Pty Ltd.',
-      jobTitle: 'UI Developer',
+      jobTitle: 'Software Engineer',
       description: [
         'Designing new features and developing prototypes to create an intuitive user interface for the application.',
         'Developing the desktop application using C++, Qt framework, HTML and CSS.',
