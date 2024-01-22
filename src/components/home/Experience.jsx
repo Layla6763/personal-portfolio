@@ -48,7 +48,7 @@ const Experience = () => {
       startDate: 'Sep 2012',
       endDate: ' - Jul 2016',
       company: 'East China University of Political Science and Law',
-      jobTitle: 'Bachelor of Finance',
+      jobTitle: 'Bachelor of Economics',
       description: [
         
       ]
